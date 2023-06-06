@@ -10,9 +10,11 @@ namespace PurpleBuzz.DAL
 
         }
 
+        public  DbSet<User> Users { get; set; }
         public DbSet<AboutIntroComponent> AboutIntroComponents { get; set; }
         public DbSet<WhyYouChoose> WhyYouChooses { get; set; }
-
         public DbSet<Our> Ours { get; set; }
+        public DbSet<WorkCategory> WorkCategories { get; set; }
+        public DbSet<Work> Works { get; set; }
     }
 }
